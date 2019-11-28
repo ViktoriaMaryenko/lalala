@@ -13,7 +13,6 @@ body {
 }
 
 .header_nav-row {
-    margin-bottom: 320px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,6 +61,7 @@ body {
     max-width: 530px;
     margin-left: 100px;
     float:left;
+    margin-top: 160px;
 }
 
 .header_title {
@@ -103,6 +103,6 @@ body {
 
 .header_promo-img {
     float: right;
-    
+    margin-top: 90px;
     
 }
