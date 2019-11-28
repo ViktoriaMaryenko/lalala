@@ -58,9 +58,10 @@ body {
     color: #3984f3;
 }
 
-.header_promo {
+.header_promo-text {
     max-width: 530px;
     margin-left: 100px;
+    float:left;
 }
 
 .header_title {
@@ -100,8 +101,8 @@ body {
     text-decoration: none;
 }
 
-.header_img {
-   
+.header_promo-img {
+    float: right;
     
     
 }
