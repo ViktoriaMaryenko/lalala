@@ -13,9 +13,10 @@ body {
 }
 
 .header_nav-row {
+    margin-bottom: 320px;
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
 }
 
 .header_nav {
@@ -29,7 +30,7 @@ body {
 .header_nav-link {
     text-decoration: none;
     color: #bab8b8; 
-    margin-right: 70px;
+    margin-right: 30px;
 }
 
 .header_nav-link:last-child {
@@ -38,4 +39,69 @@ body {
 
 .header_nav-link:hover, .header_nav-link-activ{
     color: #4497f3;
+}
+
+.header_button {
+    width: 130px;
+    height: 50px;
+    padding-top: 6px;
+    border: 2px solid #3984f3;
+    text-decoration: none;
+
+    
+    font-family:'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #3984f3;
+}
+
+.header_promo {
+    max-width: 530px;
+    margin-left: 100px;
+}
+
+.header_title {
+    margin-bottom: 70px;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 75px;
+    line-height: 80px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: #091e40;   
+}
+
+.header_text {
+    width: 462px;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #81858e;
+    margin-bottom: 70px;
+}
+
+.header_promo-btn {
+    width: 202px;
+    height: 57px;
+    background-color: #3984f3;
+
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.header_img {
+   
+    
+    
 }
